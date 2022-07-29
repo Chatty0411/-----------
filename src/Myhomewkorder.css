@@ -1,0 +1,160 @@
+   
+   .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+    @media (min-width: 992px) {
+      .album .container {
+        /* margin: 100px; */
+        /* width: 70%; */
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+    }
+
+    /* ordernotice */
+    @media(min-width:476px) {
+      #ordernotice {
+        border: 1px solid gray;
+        border-radius: 30px;
+        box-shadow: 2px 2px gray;
+        width: 60%;
+        padding: 3% 5% 6% 5%;
+      }
+    }
+    #ordernotice {
+      position: fixed;
+      left: 15%;
+      z-index: 9999;
+      background-color: rgb(237, 237, 237);
+      display: none;
+      /* visibility: hidden; */
+    }
+    @media(min-width:992px) {
+      #ordernotice {
+        border: 1px solid gray;
+        border-radius: 30px;
+        box-shadow: 2px 2px gray;
+        width: 60%;
+        padding: 3% 5% 6% 5%;
+      }
+    }
+    a.boxclose {
+      float: right;
+      width: 26px;
+      height: 26px;
+      background: transparent url(img/cancel.png) repeat top left;
+      margin-top: -7%;
+      margin-right: -10%;
+      cursor: pointer;
+    }
+
+    /* navbar */
+    #ico {
+      width: 150px;
+    }
+    nav {
+      background-color: white;
+    }
+    li {
+      background-image: url('./img/筆刷.png');
+      /* background-image: url('./img/筆刷綠.png'); */
+      background-size: 80px;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+    }
+    .nav-item {
+      margin-left: 25px;
+    }
+    #nav-color:hover {
+      color: black;
+      font-size: large;
+    }
+    .navbar-brand {
+      margin-left: 60px;
+    }
+
+    /* date */
+    .datenav {
+      width: 100%;
+      min-height: 70px;
+      border: 1px solid gray;
+      border-radius: 25px;
+      margin: 10px 0;
+      padding-top: 15px;
+    }
+    .datenav {
+      text-align: center;
+    }
+    .date {
+      width: 180px;
+      font-size: 15px;
+      border-radius: 20px;
+      margin-right: 15px;
+    }
+    /*控制年月日这个区域的*/
+    ::-webkit-datetime-edit-fields-wrapper {
+      float: right;
+      margin-right: 10px;
+    }
+    /*这是控制年月日之间的斜线或短横线的*/
+    ::-webkit-datetime-edit-text {
+      padding: 5px;
+    }
+    ::-webkit-calendar-picker-indicator {
+      /*这是控制下拉小箭头的*/
+      border-radius: 4px;
+      /* box-shadow: inset 0 1px #fff, 0 1px #eee; */
+      /* color: #666; */
+      cursor: pointer;
+      width: 40px;
+      float: left;
+    }
+    .orderbtnarea {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    /* footer */
+    footer {
+      padding: 50px;
+      background-color: rgb(177, 236, 145);
+      /* height: 500px; */
+      width: 100%;
+      color: black;
+    }
+    .foot p {
+      text-align: center;
+      background-color: gray;
+      height: 50px;
+      width: 100%;
+      margin-bottom: -50px;
+      color: whitesmoke;
+    }
+    #con {
+      /* float: right; */
+      padding-left: 20px;
+      padding-top: 30px;
+      color: gray;
+    }
+    footer button {
+      float: right;
+    }
+ 
+    .le {
+        color: orange;
+    }
+    .num {
+        float: right;
+    }

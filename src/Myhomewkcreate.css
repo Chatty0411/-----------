@@ -1,0 +1,58 @@
+
+.conbtn {
+    display: flex;
+    justify-content: center;
+}
+.hh {
+    height: 50px;
+}
+.conta {
+    margin-top: 100px;
+}
+hr {
+    margin-top: 20px;
+}
+.left {
+    text-align: right;
+    padding-right: 40px;
+}
+.confirmtitle {
+    text-align: center;
+
+}
+.bgcon {
+    margin-bottom: 30px;
+    background-image: url(./img/筆刷.png);
+    background-size: 40px;
+    opacity: .6;
+    /* background-repeat: no-repeat; */
+}
+.date {
+    width: 200px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+/*控制年月日这个区域的*/
+::-webkit-datetime-edit-fields-wrapper {
+    float: right;
+    margin-right: 10px;
+}
+/*这是控制年月日之间的斜线或短横线的*/
+::-webkit-datetime-edit-text {
+    padding: 5px;
+}
+::-webkit-calendar-picker-indicator {
+    /*这是控制下拉小箭头的*/
+    border-radius: 4px;
+    cursor: pointer;
+    width: 40px;
+    float: left;
+}
+
+.creico {
+    position: fixed;
+    top:60px;
+}
+
+
